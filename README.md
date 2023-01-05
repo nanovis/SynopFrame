@@ -1,5 +1,5 @@
-# SynopSpace
-Multiscale visualization tool for DNA nanotechnology simulations 
+# SynopFrame
+Multiscale Time-dependent Visual Abstraction Framework for Exploratory Analysis of DNA Nanotechnology Simulations
 
 # Demo dataset 
 
