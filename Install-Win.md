@@ -13,5 +13,14 @@
     - unzip the zip file
     - rename `trajectory_run_aligned_to_mean.oxdna-002.dat` to `trajectory_run_aligned_to_mean.oxdna.dat` (make sure your file explorer shows the file extensions)
     - move `trajectory_run_aligned_to_mean.oxdna.dat` to `SynopSpace\demo_cube\input`
-3. Open `SynopFrame\src\hdk\SynopFrame_Parser\src\CMakeLists.txt` in a text editor and change `Houdini 19.5.303` to your version. In my case, I should change it to `Houdini 19.5.435`. If you have changed the installation path of Houdini, you will need to change the whole path. 
-4. Install CMake (https://cmake.org/download/), Make sure to `Add CMake to the system PATH`
+3. Copy `SynopFrame\dso` to `C:\Users\<Your_User_Name>\Documents\houdini19.5`
+4. Copy everything under `SynopFrame\src\houdini19.5` to `C:\Users\<Your_User_Name>\Documents\houdini19.5`
+
+
+
+## Optional, for advanced users, if you want to compile the HDK project:
+1. Open `SynopFrame\src\hdk\SynopFrame_Parser\src\CMakeLists.txt` in a text editor and change `Houdini 19.5.303` to your version. In my case, I should change it to `Houdini 19.5.435`. If you have changed the installation path of Houdini, you will need to change the whole path. 
+2. Install CMake (https://cmake.org/download/), Make sure to `Add CMake to the system PATH`
+3. Double click `SynopFrame\src\hdk\SynopFrame_Parser\Win-GenProjects.bat` to build the custom HDK program. 
+4. Compile it in Visual Studio. It will install to the designated folder automatically. 
+
