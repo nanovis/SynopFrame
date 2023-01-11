@@ -14,6 +14,8 @@
     - rename `trajectory_run_aligned_to_mean.oxdna-002.dat` to `trajectory_run_aligned_to_mean.oxdna.dat` (make sure your file explorer shows the file extensions)
     - move `trajectory_run_aligned_to_mean.oxdna.dat` to `SynopSpace\demo_cube\input`
 3. Copy everything under `SynopFrame\houdini19.5` to `C:\Users\<Your_User_Name>\Documents\houdini19.5`. When asked whether to replace `houdini.env`, choose `Yes`
+4. Double-click to open `SynopFrame\demo_cube\demo_cube.hipnc` (or `SynopFrame\demo_RNA_Tile\`)
+5. Use Cheat-Sheet-Win to navigate inside SynopFrame
 
 
 
