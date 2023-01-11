@@ -9,8 +9,8 @@
 ## Download SynopFrame
 
 1. Download the whole folder from https://drive.google.com/drive/folders/1xbYeDMVUeccxr5n-9Xho-QC8C8CZ5kiX?usp=sharing
-2. In case you get one zip file (in my case `SynopSpace-20230101T075137Z-001`) and a standalone file (`trajectory_run_aligned_to_mean.oxdna-002.dat`)
-    - unzip the compressed file
+2. In case you get one zip file (in my case `SynopFrame-20230111T025843Z-001.zip`) and a standalone file (`trajectory_run_aligned_to_mean.oxdna-002.dat`)
+    - unzip the zip file
     - rename `trajectory_run_aligned_to_mean.oxdna-002.dat` to `trajectory_run_aligned_to_mean.oxdna.dat` (make sure your file explorer shows the file extensions)
     - move `trajectory_run_aligned_to_mean.oxdna.dat` to `SynopSpace\demo_cube\input`
 3. 
