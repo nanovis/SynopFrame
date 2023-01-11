@@ -31,7 +31,7 @@ Select NT
 ![image](https://user-images.githubusercontent.com/8460424/211728606-780b779c-2c7f-4a35-9df3-fe230aeeded6.png)
 
 
-### Layout for Schematic2D and Heatbar 
+#### Layout for Schematic2D and Heatbar 
 
 
 ![image](https://user-images.githubusercontent.com/8460424/211728676-9d9d36a9-e29d-4e74-802a-c988390065c3.png)
