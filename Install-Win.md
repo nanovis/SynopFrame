@@ -3,6 +3,8 @@
 1. Sign up and download Houdini Launcher from https://www.sidefx.com/download/
 2. Open the launcher and install Houdini (as of writing, I installed `Production Build 19.5.435 win64-vc142`)
 3. Use the default option and proceed to install
+4. On the first launch, one will get a license error. Proceed with `Install (or reinstall) my free Houdini Apprentice License`
+5. Run Houdini to test it is successfully installed 
 
 ## Download SynopFrame
 
