@@ -15,6 +15,10 @@ Windows installation [guide](https://github.com/nanovis/SynopFrame/blob/main/Ins
 
 For Linux users, the installation process should be similar to Windows. We are happy to guide you through the process. 
 
+# Input 
+
+To run SynopFrame for your own dataset, you need to create a folder with the following contents. 
+
 # Feedback
 
 Please use the GitHub Issues. 
