@@ -32,7 +32,9 @@ To run SynopFrame for your own dataset, you need to create a folder with the fol
   └─<structure_name>.hipnc # this is copied from e.g. `demo_cube.hipnc`
 ```
 
-And then open `<structure_name>.hipnc`, go to the `IO_and_Controller` panel, the `IO` tab, change the `print_conf_interval` accordingly. And then click `Cache All`. After the data is cached, you dataset is then at the same state as the demo dataset and is ready to analyze. 
+Check the [Input-Specification](https://github.com/nanovis/SynopFrame/blob/main/Input-Specification.md) for the meaning of each file. 
+
+After all the files are prepared, open `<structure_name>.hipnc`, go to the `IO_and_Controller` panel, the `IO` tab, change the `print_conf_interval` accordingly. And then click `Cache All`. After the data is cached, you dataset is then at the same state as the demo dataset and is ready to analyze. 
 
 # Feedback and questions 
 
