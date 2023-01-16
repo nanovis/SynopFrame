@@ -19,6 +19,21 @@ For Linux users, the installation process should be similar to Windows. We are h
 
 To run SynopFrame for your own dataset, you need to create a folder with the following contents. 
 
+```bash
+└─<case_folder_name>
+  ├─input
+  │  ├─design.oxdna.dat
+  │  ├─design.oxdna.top
+  │  ├─design.synopspace.hb
+  │  ├─mean.oxdna.dat
+  │  ├─trajectory_run.synopspace.hb
+  │  ├─trajectory_run.synopspace.pca_coords
+  │  └─trajectory_run_aligned_to_mean.oxdna.dat
+  └─<structure_name>.hipnc # this is copied from e.g. `demo_cube.hipnc`
+```
+
+And then open `<structure_name>.hipnc`, go to the `IO_and_Controller` panel, the `IO` tab, change the `print_conf_interval` accordingly. And then click `Cache All`. After the data is cached, you dataset is then at the same state as the demo dataset and is ready to analyze. 
+
 # Feedback
 
 Please use the GitHub Issues. 
