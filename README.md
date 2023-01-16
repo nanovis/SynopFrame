@@ -15,7 +15,7 @@ Windows installation [guide](https://github.com/nanovis/SynopFrame/blob/main/Ins
 
 For Linux users, the installation process should be similar to Windows. We are happy to guide you through the process. 
 
-# Input 
+# Load your own data
 
 To run SynopFrame for your own dataset, you need to create a folder with the following contents. 
 
@@ -34,7 +34,7 @@ To run SynopFrame for your own dataset, you need to create a folder with the fol
 
 And then open `<structure_name>.hipnc`, go to the `IO_and_Controller` panel, the `IO` tab, change the `print_conf_interval` accordingly. And then click `Cache All`. After the data is cached, you dataset is then at the same state as the demo dataset and is ready to analyze. 
 
-# Feedback
+# Feedback and questions 
 
 Please use the GitHub Issues. 
 
