@@ -9,12 +9,9 @@
 ## Download SynopFrame
 
 1. Download the repository
-2. Download the demo dataset from https://drive.google.com/drive/folders/1xbYeDMVUeccxr5n-9Xho-QC8C8CZ5kiX?usp=sharing
-    - in case you get one zip file (in my case `SynopFrame-20230111T025843Z-001.zip`) and one standalone file (`trajectory_run_aligned_to_mean.oxdna-002.dat`)
+2. Download the demo dataset from https://drive.google.com/file/d/16OjlFjXD_vdNULJiAklH0DFxA6f9Lf1f/view?usp=sharing
     - unzip the zip file
-    - rename `trajectory_run_aligned_to_mean.oxdna-002.dat` to `trajectory_run_aligned_to_mean.oxdna.dat` (make sure your file explorer shows the file extensions)
-    - move `trajectory_run_aligned_to_mean.oxdna.dat` to `SynopFrame\demo_cube\input`
-    - move the contents of the downloaded dataset folders to the corresponding folders in the downloaded repository
+    - move its contents to the corresponding folders in the downloaded repository
     - in the end, you should have the following folder structure
 ```bash
 ├─demo_cube
