@@ -35,3 +35,10 @@ Select NT
 
 
 ![image](https://user-images.githubusercontent.com/8460424/211728676-9d9d36a9-e29d-4e74-802a-c988390065c3.png)
+
+### Houdini UI related
+
+Change handle size: `Edit -> Preferences -> Handles -> Handle Scale`
+
+![image](https://user-images.githubusercontent.com/8460424/217481972-167f84db-3644-40eb-b3a9-7cac64cf8b91.png)
+
