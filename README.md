@@ -15,6 +15,29 @@ Windows installation [guide](https://github.com/nanovis/SynopFrame/blob/main/Ins
 
 For Linux users, the installation process should be similar to Windows. We are happy to guide you through the process. 
 
+## Known issues for Linux users
+
+1. In case you cannot launch Houdini after installation, and the error message is similar to 
+
+```
+Crash report from <YourName>; Houdini FX Version 19.5.493 [linux-x86_64-gcc9.3]
+Uptime 2 seconds
+Tue Feb 14 11:41:13 2023
+Caught signal 11
+
+Traceback from 14123 ThreadId=0x7fc00cfb5e80
+AP_Interface::coreDumpChaser(UTsignalHandlerArg) <libHoudiniUI.so>
+AP_Interface::si_CrashHandler::chaser(UTsignalHandlerArg) <libHoudiniUI.so>
+signalCallback(UTsignalHandlerArg) <libHoudiniUT.so>
+UT_Signal::UT_ComboSignalHandler::operator()(int, siginfo_t*, void*) const <libHoudiniUT.so>
+UT_Signal::processSignal(int, siginfo_t*, void*) <libHoudiniUT.so>
+__funlockfile <libpthread.so.0>
+```
+
+As suggested [here](https://www.sidefx.com/forum/topic/81386/?page=4#post-358280), you may run `sudo apt-get install lsb-core` and try again. 
+
+2. You will need to find the Houdini preference folder (on Windows, it is `C:\Users\<Your_User_Name>\Documents\houdini19.5`). It is likely under your home foler. 
+
 # Load your own data
 
 To run SynopFrame for your own dataset, you need to create a folder with the following contents. 
