@@ -27,5 +27,19 @@ def update_frame():
     update(7, {"node": "/obj/All_NT/CMS_Position"})
     update(9, {"node": "/obj/Snakes/CMS_Snake_Prim"})
 
+def toggle(on):
+    # print(on)
+    if (on == 'on'):
+        hou.node("/obj/All_NT/SynopSpace_xform").setDisplayFlag(True)
+        hou.node("/obj/Snakes/SynopSpace_xform").setDisplayFlag(True)
+        hou.node("/obj/Schematic3D/SynopSpace_xform").setDisplayFlag(True)
+        hou.node("/obj/Schematic2D/SynopSpace_xform").setDisplayFlag(True)
+        hou.node("/obj/Heatbar/SynopSpace_xform").setDisplayFlag(True)
+    else:
+        hou.node("/obj/All_NT/All-NT_at_Frame").setDisplayFlag(True)
+        hou.node("/obj/Snakes/Snakes_render").setDisplayFlag(True)
+        hou.node("/obj/Schematic3D/Schematic3D_render").setDisplayFlag(True)
+        hou.node("/obj/Schematic2D/Schematic2D_render").setDisplayFlag(True)
+        hou.node("/obj/Heatbar/Heatbar_render").setDisplayFlag(True)
     
 # __import__("SynopSpace_xform_handle").update_all()
