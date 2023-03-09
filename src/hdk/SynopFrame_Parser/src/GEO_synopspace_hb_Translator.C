@@ -63,6 +63,7 @@ GEO_synopspace_hb_Translator::fileLoad(GEO_Detail *gdp, UT_IStream &is, bool ate
 {
     // Convert our stream to ascii.
     UT_IStreamAutoBinary	forceascii(is, false);
+	UT_WorkBuffer tmpBuffer;
 
 	// Read first frame, parse box_sides
 
@@ -85,12 +86,12 @@ GEO_synopspace_hb_Translator::fileLoad(GEO_Detail *gdp, UT_IStream &is, bool ate
 	while (is.peek() != char_t && !is.isEof())
 	{
 		// self-defined synopspace hb format
-		float nt_status = -3, pair_id = -1;
+		int nt_status = -3, pair_id = -1;
 
-		is.read<fpreal32>(&nt_status);
+		is.read(&nt_status);
 
 		if (nt_status == 2)
-			is.read<fpreal32>(&pair_id);
+			is.read(&pair_id);
 
 
 		ptnum = gdp->appendPoint();
@@ -109,7 +110,10 @@ GEO_synopspace_hb_Translator::fileLoad(GEO_Detail *gdp, UT_IStream &is, bool ate
 		GA_RWHandleI t(gdp->addIntTuple(GA_ATTRIB_POINT, "t", 1));
 		t.set(gdp->pointOffset(ptnum), frame_t);
 
-		is.getc(); // consume \n, the end line, for is.peek() to work properly
+		is.getLine(tmpBuffer);
+		//is.getc(); // consume \n, the end line, for is.peek() to work properly
+		/*if (ptnum > 6537 && ptnum < 6542)
+			std::cout << ptnum << ": " << tmpBuffer << ": " << is.peek() << std::endl;*/
 	}
 
 
@@ -130,12 +134,12 @@ GEO_synopspace_hb_Translator::fileLoad(GEO_Detail *gdp, UT_IStream &is, bool ate
 		while (is.peek() != char_t && !is.isEof())
 		{
 			// self-defined synopspace hb format
-			float nt_status = -3, pair_id = -1;
+			int nt_status = -3, pair_id = -1;
 
-			is.read<fpreal32>(&nt_status);
+			is.read(&nt_status);
 
 			if (nt_status == 2)
-				is.read<fpreal32>(&pair_id);
+				is.read(&pair_id);
 
 
 			ptnum = gdp->appendPoint();
@@ -154,7 +158,7 @@ GEO_synopspace_hb_Translator::fileLoad(GEO_Detail *gdp, UT_IStream &is, bool ate
 			GA_RWHandleI t(gdp->addIntTuple(GA_ATTRIB_POINT, "t", 1));
 			t.set(gdp->pointOffset(ptnum), frame_t);
 
-			is.getc(); // consume \n, the end line, for is.peek() to work properly
+			is.getLine(tmpBuffer); // consume \n, the end line, for is.peek() to work properly
 		}
 	}
 	
