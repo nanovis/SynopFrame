@@ -9,7 +9,7 @@
 ## Download SynopFrame
 
 1. Download the repository
-2. Download the demo dataset from https://drive.google.com/file/d/16OjlFjXD_vdNULJiAklH0DFxA6f9Lf1f/view?usp=sharing (You may also download from 链接：https://pan.baidu.com/s/17PSqZ0EsSIAZdaiZXcYnxg?pwd=2023 
+2. Proceed to Step 3 if you only want to try the icosahedron example. For the cube and the RNA tile data set: download the demo dataset from https://drive.google.com/file/d/16OjlFjXD_vdNULJiAklH0DFxA6f9Lf1f/view?usp=sharing (You may also download from 链接：https://pan.baidu.com/s/17PSqZ0EsSIAZdaiZXcYnxg?pwd=2023 
 提取码：2023, if you are in China)
     - unzip the zip file
     - move its contents to the corresponding folders in the downloaded repository
@@ -25,7 +25,10 @@
     └─demo_RNA_Tile.hipnc
 ```
 3. Copy everything under `SynopFrame\houdini19.5` to `C:\Users\<Your_User_Name>\Documents\houdini19.5`. When asked whether to replace `houdini.env`, choose `Yes`
-4. Double-click to open `SynopFrame\demo_cube\demo_cube.hipnc` (or `SynopFrame\demo_RNA_Tile\`)
+4. Double-click to open one of the following:
+    1. `SynopFrame\demo_icosahedron10Frames\icosahedron_cndo_10Frames.hipnc`
+    2. `SynopFrame\demo_cube\demo_cube.hipnc`
+    3. `SynopFrame\demo_RNA_Tile\`
 5. Use [Cheat-Sheet-Win](https://github.com/nanovis/SynopFrame/blob/main/Cheat-Sheet-Win.md) to navigate inside SynopFrame
 
 
