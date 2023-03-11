@@ -28,7 +28,7 @@
 4. Double-click to open one of the following:
     1. `SynopFrame\demo_icosahedron10Frames\icosahedron_cndo_10Frames.hipnc`
     2. `SynopFrame\demo_cube\demo_cube.hipnc`
-    3. `SynopFrame\demo_RNA_Tile\`
+    3. `SynopFrame\demo_RNA_Tile\demo_RNA_Tile.hipnc`
 5. Use [Cheat-Sheet-Win](https://github.com/nanovis/SynopFrame/blob/main/Cheat-Sheet-Win.md) to navigate inside SynopFrame
 
 
