@@ -7,7 +7,7 @@ Feedback form: https://forms.gle/MH2F7mkDQVHpfNUv6
 
 # Hardware 
 
-The software has been tested on Windows and Max; however, because of a high-end MacBook Pro cannot maintain an interactive frame rate, we do not recommend using SynopFrame on MacBooks.
+The software has been tested on Windows and Max; however, because a high-end MacBook Pro cannot maintain an interactive frame rate, we do not recommend using SynopFrame on MacBooks.
 
 # Installation
 
