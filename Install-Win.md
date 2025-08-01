@@ -1,7 +1,7 @@
 ## Download Houdini
 
 1. Sign up and download Houdini Launcher from https://www.sidefx.com/download/
-2. Open the launcher and install Houdini (as of writing, I installed `Production Build 19.5.435 win64-vc142`)
+2. Open the launcher and install Houdini (suggested version: "Choose Another Version" -> "19.5.805 Production default win64-vc142". Other 19.5 versions will also work by default. Other versions will need to recompile some code from source as mentioned at the end.)
 3. Use the default option and proceed to install
 4. On the first launch, one will get a license error. Proceed with `Install (or reinstall) my free Houdini Apprentice License`
 5. Run Houdini to test it is successfully installed 
