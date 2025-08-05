@@ -5,6 +5,10 @@ Case study video: https://youtu.be/Hu0tfpS7JBk
 
 Feedback form: https://forms.gle/MH2F7mkDQVHpfNUv6
 
+# GRSI reproducibility 
+
+Follow this installation [guide](https://github.com/nanovis/SynopFrame/blob/main/Install-Win.md), and open `icosahedron_cndo_10Frames.hipnc` should give visuals very similar to **Fig. 1** in our paper. Opening the other two mentioned files should give visuals very similar to **Fig. 5， 7， 8** and **Fig. D.11** in the appendix. One will need to move the time slider and move the camera (mentioned in [Cheat-Sheet-Win](https://github.com/nanovis/SynopFrame/blob/main/Cheat-Sheet-Win.md)) to get closer to the exact figure. But the very exact visual is not intended as the tool is a dynamic analysis tool, which means that spotting insights by navigating in the system is more important.
+
 # Hardware 
 
 The software has been tested on Windows and Max; however, because a high-end MacBook Pro cannot maintain an interactive frame rate, we do not recommend using SynopFrame on MacBooks.
