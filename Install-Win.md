@@ -9,8 +9,7 @@
 ## Download SynopFrame
 
 1. Download the repository
-2. Proceed to Step 3 if you only want to try the icosahedron example. For the cube and the RNA tile data set: download the demo dataset from https://drive.google.com/file/d/16OjlFjXD_vdNULJiAklH0DFxA6f9Lf1f/view?usp=sharing (You may also download from 链接：https://pan.baidu.com/s/17PSqZ0EsSIAZdaiZXcYnxg?pwd=2023 
-提取码：2023, if you are in China)
+2. Proceed to Step 3 if you only want to try the icosahedron example. For the cube and the RNA tile data set: download the demo dataset from https://osf.io/download/vhb35/. 
     - unzip the zip file
     - move its contents to the corresponding folders in the downloaded repository
     - in the end, you should have the following folder structure
