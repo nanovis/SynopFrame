@@ -7,7 +7,11 @@ Feedback form: https://forms.gle/MH2F7mkDQVHpfNUv6
 
 # GRSI reproducibility 
 
-Following this installation [guide](https://github.com/nanovis/SynopFrame/blob/main/Install-Win.md), and opening `icosahedron_cndo_10Frames.hipnc` should give visuals very similar to **Fig. 1** in our paper. Opening the other two mentioned files should give visuals very similar to **Fig. 5， 7， 8** and **Fig. D.11** in the appendix. One will need to move the time slider and move the camera (mentioned in [Cheat-Sheet-Win](https://github.com/nanovis/SynopFrame/blob/main/Cheat-Sheet-Win.md)) to get closer to the exact figure. But the very exact visual is not intended as the tool is a dynamic analysis tool, which means that spotting insights by navigating in the system is more important.
+Following [this installation guide](https://github.com/nanovis/SynopFrame/blob/main/Install-Win.md),
+one can find `icosahedron_cndo_10Frames.hipnc`
+under `SynopFrame\demo_icosahedron10Frames` (from Step 4 in "Download SynopFrame" in [the installation guide](https://github.com/nanovis/SynopFrame/blob/main/Install-Win.md))
+opening it should give visuals very similar to **Fig. 1** in our paper. 
+Opening the other two mentioned files (from the same Step 4 in "Download SynopFrame" in [the installation guide](https://github.com/nanovis/SynopFrame/blob/main/Install-Win.md)) should give visuals very similar to **Fig. 5， 7， 8** and **Fig. D.11** in the appendix. One will need to move the time slider and move the camera (mentioned in [Cheat-Sheet-Win](https://github.com/nanovis/SynopFrame/blob/main/Cheat-Sheet-Win.md)) to get closer to the exact figure. But the very exact visual is not intended as the tool is a dynamic analysis tool, which means that spotting insights by navigating in the system is more important.
 
 # Hardware 
 
